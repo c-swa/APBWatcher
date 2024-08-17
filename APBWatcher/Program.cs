@@ -146,7 +146,7 @@ namespace APBWatcher
         static void RunWatcher()
         {
             WatcherConfig config;
-            using (var configReader = File.OpenText("watcher_conf.yml"))
+            using (var configReader = File.OpenText("watcher_conf.yml")) // unhandled exception -- IO.file-not-found
             {
                 var deserializer = new Deserializer();
                 config = deserializer.Deserialize<WatcherConfig>(configReader);
