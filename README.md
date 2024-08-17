@@ -1,5 +1,9 @@
 # APB Watcher
 
+Forked from [McSimp](https://github.com/McSimp/APBWatcher)
+
+In August of 2024, Little Orbit, the Publisher of APB updated the game to a new version where the current player tracker was not able to keep track of the game's population anymore. Steam charts is close to showing the game's population, but not guaranteed since it only shows whoever is using Steam to login and play the game. As of the current release there has been a bug that affects some users and prevents them from logging in utilizing Steam. The fellow dev who I've forked the repo from had left no licensing on the application, so I cannot assume any legal ownership to his code other than it is public and open for forking. I will leave the code without a license to keep it open for others to use.
+
 C# application for monitoring the state of APB Reloaded. Includes a library that can be used to interact with the lobby and world servers for the game.
 
 ## APB Client Library
